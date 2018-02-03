@@ -45,7 +45,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: #2C3E50;
 }
 
 hr.star-dark {
@@ -140,9 +140,7 @@ section h2 {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
+    
   }
   #mainNav .navbar-brand {
     font-size: 2em;
@@ -171,7 +169,7 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
+  padding-top: calc(5.85rem );
   padding-bottom: 6rem;
 }
 
@@ -388,7 +386,7 @@ a:focus, a:hover, a:active {
 .bgpic{
   background-image: url('bucknell3.jpg')!important; 
   background-repeat: no-repeat; 
-  background-size: cover;  
+  background-size: 100% 100%;  
    background-attachment: local;
    background-position:center; 
   margin-left: 0px; 
@@ -397,17 +395,26 @@ a:focus, a:hover, a:active {
   max-width: 100%;  
 }
 
-@media  (max-width: 1900px) {
+@media  (max-width: 1400px) {
   .bgpic{
     background-image: url('bucknell4.jpg')!important; 
   background-repeat: no-repeat; 
-  background-size: cover;
+  background-size: 1400px 801px;
   background-position:center; 
   background-attachment: local;
- 
+  margin-bottom: 0px;
   margin-left: 0px; 
   margin-right:0px; 
   text-align: center; 
    }
   }
 
+.pad{
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.b2::after{
+  color: #E87722!important;
+  background-color: #003865!important;
+}
