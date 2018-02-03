@@ -417,4 +417,21 @@ a:focus, a:hover, a:active {
 .b2::after{
   color: #E87722!important;
   background-color: #003865!important;
+
+}
+
+.b3:hover{
+  box-shadow: 10px 10px 20px 20px #000000;
+}
+
+.b3{ 
+
+  border-color: #000000;
+  border-style: groove;
+  border-width: 1px;
+
+}
+
+.b5{
+  font-weight: bold;
 }
