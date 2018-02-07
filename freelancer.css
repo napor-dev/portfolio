@@ -399,7 +399,7 @@ a:focus, a:hover, a:active {
   .bgpic{
     background-image: url('bucknell4.jpg')!important; 
   background-repeat: no-repeat; 
-  background-size: 1400px 801px;
+  background-size: 1400px 100%;
   background-position:center; 
   background-attachment: local;
   margin-bottom: 0px;
