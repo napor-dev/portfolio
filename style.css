@@ -445,6 +445,10 @@ a:focus, a:hover, a:active {
   max-height: 50%;
   margin-left: 55%;
   }
+  .res{
+  width:100%!important; 
+  height:900px!important; 
+}
 }
 
 @media (max-width: 767px){
@@ -455,6 +459,11 @@ a:focus, a:hover, a:active {
   max-width: 46.284%;
   max-height: 46.284%;
   margin-left: 27%;
+}
+
+.res{
+  width:100%!important; 
+  height:650px!important; 
 }
 
 }
