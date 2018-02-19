@@ -463,7 +463,7 @@ a:focus, a:hover, a:active {
 
 .res{
   width:100%!important; 
-  height:500px!important; 
+  height:650px!important; 
 }
 
 }
@@ -494,6 +494,10 @@ a:focus, a:hover, a:active {
   max-height: 233.48px;
     max-width: 233.48px; 
     margin-left: 19%;
+}
+.res{
+  width:100%!important; 
+  height:1100px!important; 
 }
 
 }
