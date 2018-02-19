@@ -441,6 +441,9 @@ a:focus, a:hover, a:active {
 @media (max-width: 991px){
   .r2{
     margin-left: 50%
+    max-width: 50%;
+  max-height: 50%;
+  margin-left: 50%;
   }
 }
 
