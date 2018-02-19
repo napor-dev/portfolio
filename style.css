@@ -501,3 +501,10 @@ a:focus, a:hover, a:active {
 }
 
 }
+@media (max-width: 400px){
+  .res{
+  width:100%!important; 
+  height:550px!important; 
+}
+
+  }
