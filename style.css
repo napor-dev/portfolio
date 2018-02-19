@@ -501,10 +501,28 @@ a:focus, a:hover, a:active {
 }
 
 }
-@media (max-width: 400px){
+
+@media (max-width: 550px){
+  .res{
+  width:100%!important; 
+  height:650px!important; 
+}
+
+  }
+
+@media (max-width: 525px){
+  .res{
+  width:100%!important; 
+  height:600px!important; 
+}
+
+  }
+  @media (max-width: 475px){
   .res{
   width:100%!important; 
   height:550px!important; 
 }
 
   }
+
+
