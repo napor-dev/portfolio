@@ -438,27 +438,50 @@ a:focus, a:hover, a:active {
 .b5{
   font-weight: bold;
 }
-
+@media (max-width: 991px){
+  .r2{
+    margin-left: 50%
+  }
+}
 
 @media (max-width: 767px){
   .about{
     text-align: center!important;
   }
+  .r2{
+  max-width: 50%;
+  max-height: 50%;
+  margin-left: 24%;
 }
+
+}
+
+
+
 @media (min-width:1200px){
-  .r{
-    max-height: 350px;
-    max-width: 350px; 
+  .r {
+    max-height: 284.48px!important;
+    max-width:  284.48px!important; 
     margin-left: 19%;
   }
+  .r2{
+ max-height:  284.48px!important;
+    max-width:  284.48px!important; 
+    margin-left: 19%;
+}
 
 }
 
 @media (min-width:992px) and (max-width:1199px){
   .r{
-    max-height: 289.98px;
-    max-width: 289.98px; 
+    max-height: 233.48px;
+    max-width: 233.48px; 
     margin-left: 19%;
   }
+  .r2{
+  max-height: 233.48px;
+    max-width: 233.48px; 
+    margin-left: 19%;
+}
 
 }
