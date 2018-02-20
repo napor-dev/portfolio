@@ -463,7 +463,7 @@ a:focus, a:hover, a:active {
 
 .res{
   width:100%!important; 
-  height:660px!important; 
+  height:650px!important; 
 }
 
 }
@@ -501,13 +501,6 @@ a:focus, a:hover, a:active {
 }
 
 }
-@media (max-width: 575px){
-  .res{
-  width:100%!important; 
-  height:680px!important; 
-}
-
-  }
 
 @media (max-width: 550px){
   .res{
@@ -520,22 +513,7 @@ a:focus, a:hover, a:active {
 @media (max-width: 525px){
   .res{
   width:100%!important; 
-  height:620px!important; 
-}
-
-  }
-  @media (max-width: 510px){
-  .res{
-  width:100%!important; 
   height:600px!important; 
-}
-
-  }
-
-  @media (max-width: 500px){
-  .res{
-  width:100%!important; 
-  height:580px!important; 
 }
 
   }
