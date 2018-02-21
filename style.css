@@ -175,7 +175,7 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   line-height: 4rem;
 }
 
@@ -601,4 +601,9 @@ header.masthead h2 {
   }
 }
 
+@media(max-width: 576px){
+  header.masthead h2{
+    font-size: 40px!important;
+  }
+}
 
