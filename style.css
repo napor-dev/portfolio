@@ -387,9 +387,11 @@ a:focus, a:hover, a:active {
 .bgpic{
   background-image: url('bucknell3.jpg')!important; 
   background-repeat: no-repeat; 
-  background-size: 100% 100%;  
+  background-size: cover;
+  background-position-y:bottom;
+  background-position-x:left;  
    background-attachment: local;
-   background-position:center; 
+   
   margin-left: 0px; 
   margin-right:0px; 
   text-align: center; 
@@ -402,8 +404,9 @@ a:focus, a:hover, a:active {
   .bgpic{
     background-image: url('bucknell4.jpg')!important; 
   background-repeat: no-repeat; 
-  background-size: 1400px 100%;
-  background-position:center; 
+  background-size: cover;
+  background-position-y:bottom;
+  background-position-x:center; 
   background-attachment: local;
   margin-bottom: 0px;
   margin-left: 0px; 
@@ -448,6 +451,9 @@ a:focus, a:hover, a:active {
   .res{
   width:100%!important; 
   height:900px!important; 
+}
+.j{
+  padding-top: 5rem!important;
 }
 }
 
@@ -546,5 +552,53 @@ a:focus, a:hover, a:active {
 }
 
   }
+@media(max-height: 767px){
+  header.masthead h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+header.masthead h2 {
+  font-size: 32px!important;
+  line-height: 2.5rem;
+}
+.e{
+  margin-bottom: 1rem!important;
+}
+.g{
+  margin-top: 1.7rem!important;
+  margin-bottom: 1.7rem!important;
+  
+}
+}
+@media(max-height: 576px) and (min-width: 992px){
+  .o{
+    min-height: 576px!important;
+  }
+  header.masthead h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+.j{
+  padding-top: 5rem!important;
+  padding-bottom: 0!important;
+}
+.e{
+  margin-bottom: .5rem!important;
+}
+}
+@media(max-height: 576px) and (max-width: 991px){
+  .o{
+    min-height: 576px!important;
+  }
+  header.masthead h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+  .j{
+     padding-top: 5rem!important;
+    padding-bottom: 0px;
+  }
+}
 
 
