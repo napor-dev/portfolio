@@ -437,6 +437,10 @@ a:focus, a:hover, a:active {
   border-width: 1px;
 
 }
+.b10:hover{
+  box-shadow: 10px 10px 15px 15px #000000;
+}
+
 
 .b5{
   font-weight: bold;
