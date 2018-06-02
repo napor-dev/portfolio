@@ -400,6 +400,7 @@ a:focus, a:hover, a:active {
  
 }
 
+
 @media  (max-width: 1400px) {
   .bgpic{
     background-image: url('bucknell4.jpg')!important; 
@@ -419,6 +420,11 @@ a:focus, a:hover, a:active {
   padding-bottom: 30px;
   padding-top: 30px;
 }
+
+.padt0{
+  padding-top:0px;
+}
+
 
 .b2::after{
   color: #E87722!important;
@@ -445,12 +451,32 @@ a:focus, a:hover, a:active {
 .b5{
   font-weight: bold;
 }
+.r3{
+
+    margin-left: 34%;
+}
 @media (max-width: 991px){
+   .o4{
+margin-left:50%;
+
+}
+.pad2{
+  padding-bottom: 0px;
+}
   .r2{
     margin-left: 50%
     max-width: 50%;
   max-height: 50%;
   margin-left: 55%;
+  }
+  .r3{
+    max-width: 50%;
+  max-height: 50%;
+    margin-left: 25%;
+  }
+  .r4{
+    margin-left:0px;
+    margin-right:55%;
   }
   .res{
   width:100%!important; 
@@ -465,11 +491,20 @@ a:focus, a:hover, a:active {
   .about{
     text-align: center!important;
   }
+
   .r2{
   max-width: 46.284%;
   max-height: 46.284%;
   margin-left: 27%;
 }
+.r3{
+  max-width: 46.284%;
+  max-height: 46.284%;
+}
+.r4{
+    margin-left:0px;
+    margin-right:27%;
+  }
 
 .res{
   width:100%!important; 
@@ -481,6 +516,12 @@ a:focus, a:hover, a:active {
 
 
 @media (min-width:1200px){
+  .o3{
+  margin-left:10%;
+}
+  .o3{
+  max-width: 80%!important;
+}
   .r {
     max-height: 284.48px!important;
     max-width:  284.48px!important; 
@@ -491,10 +532,23 @@ a:focus, a:hover, a:active {
     max-width:  284.48px!important; 
     margin-left: 19%;
 }
+  .r3{
+    max-height:  284.48px!important;
+    max-width:  284.48px!important; 
+  }
+  .r4{
+    margin-left:0px;
+    margin-right:19%;
+  }
 
 }
 
+
 @media (min-width:992px) and (max-width:1199px){
+  .o3{
+  max-width: 80%!important;
+  margin-left:10%;
+}
   .r{
     max-height: 233.48px;
     max-width: 233.48px; 
@@ -505,12 +559,18 @@ a:focus, a:hover, a:active {
     max-width: 233.48px; 
     margin-left: 19%;
 }
+  .r3{
+     max-height: 233.48px;
+    max-width: 233.48px; 
+  }
 .res{
   width:100%!important; 
   height:1100px!important; 
 }
 
 }
+
+
 @media (max-width: 575px){
   .res{
   width:100%!important; 
