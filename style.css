@@ -460,8 +460,12 @@ a:focus, a:hover, a:active {
 }
 @media (max-width: 991px){
    .o4{
-margin-left:50%;
+margin-left:55%!important;
+max-width:100%!important;
 
+}
+.o3{
+  max-width:100%!important;
 }
 .pad2{
   padding-bottom: 0px;
